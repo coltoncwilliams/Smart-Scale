@@ -35,13 +35,13 @@ Once a recipe is selected, the screen displays the steps one by one, with the us
 ### Editing recipes on the app
 
 ![Screen-4](./media/screen-4.jpg)
-![App-2](./media/app-2.png)
-![App-3](./media/app-3.png)
+![App-2](./media/app-2.PNG)
+![App-3](./media/app-3.PNG)
 
 The scale can be controlled by the app by selecting 'edit recipes' from the main menu of the scale, and hitting the connect button in the app. The scale will appear (the BLE module is called MLT-BT05), and once connected the app will display any recipes on the scale.
 
-![App-4](./media/app-4.png)
-![App-5](./media/app-5.png)
+![App-4](./media/app-4.PNG)
+![App-5](./media/app-5.PNG)
 
 Once connected the user can add a recipe on the top left, and can add steps and a title to create and send it to the scale. The app also implements the ios swipe to delete a recipe functionality.
 
