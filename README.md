@@ -7,7 +7,7 @@
 
 ## Hardware
 
-<img src="./media/scale-2.jpg" width="40%"><img src="./media/scale-3.jpg" width="40%">
+<img src="./media/scale-2.jpg" width="40%">    <img src="./media/scale-3.jpg" width="40%">
 
 The scale is controlled by a regular Arduino Uno, powered by a NightShade energy sheild (USB charging on the left), with a prototype sheild on the top for connections to sensors. The prototype sheild includes an RTC and SD card slot at pin 10, with a HX711 weight sensor attached to pins 2 and 6. To make the device wireless the device uses a HM-10 bluetooth module at pins 7 and 8, and for user interaction there is an OLED at pins A4 and A5, with three buttons at 3, 5, and 10 respectively.
 
@@ -26,7 +26,7 @@ The scale's user interface involves the OLED for a display, as well as three but
 
 ### Playing a recipe
 
-<img src="./media/screen-2.jpg" width="40%"><img src="./media/screen-3.jpg" width="40%">
+<img src="./media/screen-2.jpg" width="40%">    <img src="./media/screen-3.jpg" width="40%">
 
 Once a recipe is selected, the screen displays the steps one by one, with the user guiding it forward and backward if needed. Beyond the title screen, a step can either use the weight sensor (for things like water, flour, etc) or not (for instructions or things like eggs). On the end of a recipe the scale returns to the main screen.
 
@@ -34,11 +34,11 @@ Once a recipe is selected, the screen displays the steps one by one, with the us
 
 <img src="./media/screen-4.jpg" width="40%">
 
-<img src="./media/app-2.PNG" width="40%"><img src="./media/app-3.PNG" width="40%">
+<img src="./media/app-2.PNG" width="40%">    <img src="./media/app-3.PNG" width="40%">
 
 The scale can be controlled by the app by selecting 'edit recipes' from the main menu of the scale, and hitting the connect button in the app. The scale will appear (the BLE module is called MLT-BT05), and once connected the app will display any recipes on the scale.
 
-<img src="./media/app-4.PNG" width="40%"><img src="./media/app-5.PNG" width="40%">
+<img src="./media/app-4.PNG" width="40%">    <img src="./media/app-5.PNG" width="40%">
 
 Once connected the user can add a recipe on the top left, and can add steps and a title to create and send it to the scale. The app also implements the ios swipe to delete a recipe functionality.
 
