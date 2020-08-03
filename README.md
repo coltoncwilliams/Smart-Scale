@@ -15,7 +15,7 @@ The scale is controlled by a regular Arduino Uno, powered by a NightShade energy
 
 ## App
 
-![App-1](./media/app-1.png)
+![App-1](./media/app-1.PNG)
 
 The app is coded with Swift 5 in Xcode 11, again using hoiberg's HM10 Serial app project (https://github.com/hoiberg/HM10-BluetoothSerial-iOS) as a starting base for communication. Through a series of table view controllers the app allows the user to see, delete, and add recipes to the scale.
 
