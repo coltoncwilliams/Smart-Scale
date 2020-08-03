@@ -2,6 +2,7 @@
 ### This project documents an interactive scale with bluetooth low energy for iPhone connectivity
 
 ![Scale-1](./media/scale-1.jpg)
+<img src="./media/scale-1.jpg" width="40%">
 
 #### The app is compatible with ios 13.5 and above, made possible by an adaptation of hoiberg's HM10 Serial app project (linked below), and the scale measures by the gramup to 5kg
 
